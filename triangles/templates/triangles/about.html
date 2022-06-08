@@ -1,0 +1,13 @@
+{% extends "triangles/layout.html" %}
+{% block title %}
+About us
+{% endblock %}
+{% block content %}
+<h1>GeoTutor</h1>
+<p>GeoTutor is a web app designed to teach geometry to middle school and high school students.</p>
+<h2>Team Geo</h2>
+<p></p>We are a team of software engineers who enjoy working with geometric designs and shapes.</p>
+{% load static %}
+<img class="team" src="{% static 'triangles/media/teamgeo.jpg' %}" alt="Man operating a computer as two men stand nearby to observe.">
+<p>Photo by ThisisEngineeringRAEng on unsplash.com</p>  
+{% endblock %}

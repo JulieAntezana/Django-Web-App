@@ -1,0 +1,13 @@
+{% extends "triangles/layout.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+<h1>Welcome to the Geometry Tutor!</h1>
+<p>What will you learn today?</p>
+<ul>
+  <li><a href="{% url 'a_types' %}">Types of Angles</a></li>
+  <li><a href="{% url 't_types' %}">Types of Triangles</a></li>
+  <li><a href="{% url 't_area' %}">Area of Triangles</a></li>
+</ul>
+{% endblock %}
